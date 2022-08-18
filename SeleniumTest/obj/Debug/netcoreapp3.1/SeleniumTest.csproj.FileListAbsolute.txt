@@ -93,3 +93,4 @@ C:\Root Folder\Day_03\LabExercise\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumT
 C:\Root Folder\Day_03\LabExercise\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.dll
 C:\Root Folder\Day_03\LabExercise\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.pdb
 C:\Root Folder\Day_03\LabExercise\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.genruntimeconfig.cache
+C:\Root Folder\Day_03\LabExercise\SeleniumTest\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
