@@ -84,6 +84,7 @@ namespace LabExercise
 
             IWebElement Message= driver.FindElement(By.Id("message-text"));
             Message.SendKeys(msg);
+            
             Thread.Sleep(5000);
             driver.Quit();
             
