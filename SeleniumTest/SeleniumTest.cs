@@ -85,8 +85,11 @@ namespace LabExercise
 
             IWebElement Message= driver.FindElement(By.Id("message-text"));
             Message.SendKeys(msg);
-            
             Thread.Sleep(5000);
+            
+            IWebElement Close = driver.FindElement(By.XPath("//button[@onclick='send()']/preceding-sibling::button[@type='button']"));
+            Close.Click();
+
             driver.Quit();
             
 
