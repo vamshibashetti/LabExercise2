@@ -90,7 +90,7 @@ namespace LabExercise
             IWebElement Close = driver.FindElement(By.XPath("//button[@onclick='send()']/preceding-sibling::button[@type='button']"));
             Close.Click();
 
-            driver.Quit();
+           driver.Quit();
             
 
         }         
