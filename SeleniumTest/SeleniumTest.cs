@@ -12,6 +12,7 @@ namespace LabExercise
     public class SeleniumTest
     {
         [DataTestMethod]
+        [Ignore]
         [DataRow("Ch","https://www.demoblaze.com/")]
 
         public void TestMethod4(string browser,string url)
@@ -31,7 +32,7 @@ namespace LabExercise
     
             IWebElement Contact= driver.FindElement(By.LinkText("Contact"));
             Contact.Click();
-             Thread.Sleep(5000);
+             Thread.Sleep(3000);
             IWebElement Email= driver.FindElement(By.Id("recipient-email"));
             Email.SendKeys("vamshi@gmail.com");
             Thread.Sleep(2000);
@@ -42,7 +43,7 @@ namespace LabExercise
 
             IWebElement Message= driver.FindElement(By.Id("message-text"));
             Message.SendKeys("done for now");
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             driver.Quit();
             
 
